@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage ("Test01") {
+            steps {
+                echo "Hello World"
+            }
+        }
+    }
+}
